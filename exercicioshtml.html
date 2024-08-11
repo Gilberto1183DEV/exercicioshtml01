@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Respostas dos Exercícios HTML</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Pergunta</th>
+                <th>Resposta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Pergunta 1 -->
+            <tr>
+                <td>1. O que é o HTML e qual é o seu papel na construção de páginas web?</td>
+                <td>HTML é a linguagem que usamos para criar a estrutura das páginas web. Ele organiza os elementos da página, como títulos, parágrafos, imagens, e links, definindo o que vai aparecer e onde.</td>
+            </tr>
+            <!-- Pergunta 2 -->
+            <tr>
+                <td>2. Descreva brevemente a estrutura básica de um documento HTML.</td>
+                <td>A estrutura básica de um documento HTML começa com a tag &lt;html&gt; que envolve todo o conteúdo. Dentro dela, temos a tag &lt;head&gt;, onde colocamos informações sobre a página, como o título, e a tag &lt;body&gt;, onde todo o conteúdo visível fica.</td>
+            </tr>
+            <!-- Pergunta 3 -->
+            <tr>
+                <td>3. Como o HTML se relaciona com outras tecnologias da web, como o CSS e o JavaScript?</td>
+                <td>HTML fornece a estrutura da página, CSS é usado para estilizar essa estrutura, tornando-a visualmente atraente, e JavaScript é o que dá vida à página, tornando-a interativa e dinâmica. Juntos, eles criam uma experiência completa para o usuário.</td>
+            </tr>
+            <!-- Pergunta 4 -->
+            <tr>
+                <td>4. Cite três tags HTML básicas e explique o propósito de cada uma delas.</td>
+                <td>&lt;h1&gt;: Usada para criar títulos principais na página, como o cabeçalho de um artigo.<br>
+                    &lt;p&gt;: Usada para escrever parágrafos de texto, onde o conteúdo é inserido.<br>
+                    &lt;a&gt;: Usada para criar links que levam o usuário para outras páginas ou seções.</td>
+            </tr>
+            <!-- Pergunta 5 -->
+            <tr>
+                <td>5. Dê exemplos de situações em que você as usaria ao construir uma página web.</td>
+                <td>&lt;h1&gt;: Usaria no título da página, como "Bem-vindo ao meu site".<br>
+                    &lt;p&gt;: Usaria para escrever um texto explicando sobre o site.<br>
+                    &lt;a&gt;: Usaria para linkar uma página "Sobre Mim" ou qualquer outro conteúdo relevante.</td>
+            </tr>
+            <!-- Pergunta 6 -->
+            <tr>
+                <td>6. Qual é a importância das tags de listagem, como &lt;ul&gt; e &lt;ol&gt;, no contexto da estruturação de conteúdo em uma página?</td>
+                <td>Tags de listagem como &lt;ul&gt; (lista não ordenada) e &lt;ol&gt; (lista ordenada) são importantes para organizar informações em formato de lista. &lt;ul&gt; é usada quando a ordem não importa, e &lt;ol&gt; quando a ordem dos itens é importante.</td>
+            </tr>
+            <!-- Pergunta 7 -->
+            <tr>
+                <td>7. Dê exemplos de quando você escolheria uma sobre a outra.</td>
+                <td>Usaria &lt;ul&gt; para uma lista de hobbies, pois a ordem não importa. Usaria &lt;ol&gt; para listar os passos de uma receita, onde a ordem é crucial.</td>
+            </tr>
+            <!-- Pergunta 8 -->
+            <tr>
+                <td>8. Como a tag &lt;a&gt; é utilizada para criar links em HTML?</td>
+                <td>A tag &lt;a&gt; cria links usando o atributo href para definir o destino do link. Você pode linkar para outra página, um arquivo, ou até uma parte específica da mesma página usando âncoras.</td>
+            </tr>
+            <!-- Pergunta 9 -->
+            <tr>
+                <td>9. Como você pode vincular para outras páginas, para arquivos locais e criar âncoras dentro de uma página?</td>
+                <td>Para outras páginas, basta colocar a URL no href. Para arquivos locais, coloque o caminho do arquivo. Para âncoras, use href="#id" e adicione o id correspondente na seção da página.</td>
+            </tr>
+            <!-- Pergunta 10 -->
+            <tr>
+                <td>10. Além do atributo href, quais outros atributos importantes a tag &lt;a&gt; pode ter?</td>
+                <td>Outros atributos importantes são target, que define onde o link será aberto (ex.: _blank para uma nova aba), e title, que mostra uma dica quando você passa o mouse sobre o link.</td>
+            </tr>
+            <!-- Pergunta 11 -->
+            <tr>
+                <td>11. Descreva a diferença entre os atributos src e alt em relação à tag &lt;img&gt;.</td>
+                <td>O atributo src define o caminho para a imagem que será exibida, enquanto o atributo alt fornece um texto alternativo que descreve a imagem caso ela não carregue, importante para acessibilidade.</td>
+            </tr>
+            <!-- Pergunta 12 -->
+            <tr>
+                <td>12. Por que é importante fornecer um atributo alt adequado para imagens?</td>
+                <td>O atributo alt é importante porque ajuda pessoas com deficiência visual a entenderem o que a imagem representa, e também melhora a acessibilidade e SEO do site.</td>
+            </tr>
+            <!-- Pergunta 13 -->
+            <tr>
+                <td>13. Quais outros tipos de mídia podem ser incorporados em uma página HTML?</td>
+                <td>Além de imagens, você pode incorporar vídeos, áudios, mapas interativos, e até arquivos PDF.</td>
+            </tr>
+            <!-- Pergunta 14 -->
+            <tr>
+                <td>14. Como você pode garantir que a mídia incorporada seja responsiva e se ajuste bem em diferentes dispositivos?</td>
+                <td>Para garantir que a mídia seja responsiva, você pode usar CSS para definir tamanhos em porcentagem e utilizar media queries para ajustá-la conforme o tamanho da tela.</td>
+            </tr>
+            <!-- Pergunta 15 -->
+            <tr>
+                <td>15. Quais são as principais tags usadas para criar tabelas em HTML?</td>
+                <td>As principais tags são &lt;table&gt; para começar a tabela, &lt;tr&gt; para as linhas, &lt;th&gt; para os cabeçalhos das colunas, e &lt;td&gt; para as células onde os dados são inseridos.</td>
+            </tr>
+            <!-- Pergunta 16 -->
+            <tr>
+                <td>16. Explique a diferença entre as tags &lt;th&gt; e &lt;td&gt;, e quando você as usaria.</td>
+                <td>A tag &lt;th&gt; é usada para os cabeçalhos das colunas, que geralmente aparecem em negrito e centralizados, enquanto &lt;td&gt; é usada para os dados dentro das células. Você usa &lt;th&gt; para dar título às colunas e &lt;td&gt; para preencher a tabela com informações.</td>
+            </tr>
+            <!-- Pergunta 17 -->
+            <tr>
+                <td>17. Embora tabelas sejam usadas para exibir dados tabulares, às vezes é recomendado evitá-las em favor de outras formas de apresentação de dados. Por quê? E quais são os cenários em que as tabelas são apropriadas?</td>
+                <td>Tabelas são recomendadas apenas para dados tabulares, ou seja, informações que precisam ser organizadas em linhas e colunas, como planilhas financeiras ou horários de aulas. Elas não são recomendadas para layouts ou design de páginas, pois podem ser difíceis de manipular e tornar a página menos acessível.</td>
+            </tr>
+            <!-- Pergunta 18 -->
+            <tr>
+                <td>18. O que são meta tags e qual é o seu papel em um documento HTML?</td>
+                <td>Meta tags são usadas para fornecer informações sobre a página, como o conjunto de caracteres, a descrição para motores de busca, e palavras-chave. Elas ficam no &lt;head&gt; e ajudam na otimização e na acessibilidade da página.</td>
+            </tr>
+            <!-- Pergunta 19 -->
+            <tr>
+                <td>19. Como as meta tags podem impactar a otimização de mecanismos de busca (SEO)?</td>
+                <td>Meta tags, como meta descrição e meta palavras-chave, ajudam os motores de busca a entender o conteúdo da página e a indexá-la corretamente, o que pode melhorar a visibilidade da página nos resultados de busca.</td>
+            </tr>
+            <!-- Pergunta 20 -->
+            <tr>
+                <td>20. Qual é a importância de seguir as boas práticas de codificação em HTML?</td>
+                <td>Seguir boas práticas garante que o código HTML seja limpo, legível e mantenha a consistência, o que facilita a manutenção e a atualização da página, além de melhorar a acessibilidade e a compatibilidade com diferentes navegadores.</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
